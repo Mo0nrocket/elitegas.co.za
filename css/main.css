@@ -1,7 +1,7 @@
 * {
     line-height: 1.5 !important;
-    letter-spacing: 0.12em !important;
-    word-spacing: 0.16em !important;
+    letter-spacing: 0.12rem !important;
+    word-spacing: 0.16rem !important;
     margin: 0;
 }
 
@@ -37,18 +37,21 @@ article h2,article h3 {
 }
 
 p   {
-        margin-bottom: 2em !important;
+        margin-bottom: 2rem !important;
 }
 
+/* Grid */
 .container {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 100px;
-    gap: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+    /* grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 100px; */
+    gap: 1.5rem;
+}
+
+.grid-col-span-4 {
+    grid-column: span 4;
 }
 
 .service-item {
