@@ -2,13 +2,55 @@
     line-height: 1.5 !important;
     letter-spacing: 0.12em !important;
     word-spacing: 0.16em !important;
+    margin: 0;
 }
 
 html {
     background-color: #031851;
-    color: #ffffff;    
+    color: #ffffff;
+        
+}
+
+body {
+    /* padding: 0 1.5em 0 1.5em; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body a {
+    color: #ffffff;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header ul, footer ul {
+    list-style: none;
+}
+
+header ul li, footer ul li {
+    display: inline;
+}
+
+article h2,article h3 {
+    text-align: center;
 }
 
 p   {
         margin-bottom: 2em !important;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 100px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.service-item {
+      
 }
